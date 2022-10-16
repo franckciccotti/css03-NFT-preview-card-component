@@ -1,0 +1,208 @@
+
+
+@font-face {
+    font-family: outfit;
+    src: url(./Font-Outfit/Outfit-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: #0D192B;
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* TITLE - TEXT & LIEN */
+h1, p, a{
+    font-family: outfit;
+}
+
+h1, a {
+    color: white;
+}
+
+p {
+    color: #8BACD9;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+        color: #00FFF8;
+}
+
+/* CHALLENGE */
+.challenge {
+    /* border: 1px solid black; */
+    box-shadow: 10px 10px 100px;
+    border-radius: 20px;
+    background-color: #14253D;
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 20px 20px 30px 20px;
+}
+
+
+/* PARTIE 1 MAIN IMAGE */
+.image-equilibrium {
+    /* border: 1px solid yellow; */
+    height: 50%;
+    background: url(./Images/image-equilibrium.jpg);
+    filter: contrast(120%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    margin: 0;
+}
+.image-equilibrium:hover {
+    background: linear-gradient(hsla(178, 100%, 50%, 0.5), rgba(128, 255, 255, 0.5)), url(./Images/icon-view.svg), url(./Images/image-equilibrium.jpg);
+    background-size: auto, auto, 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* PARTIE 2 TEXT */
+
+/* TITLE EQUILIBRIUM */
+h1 {
+    /* border: 1px solid black; */
+    font-size: 21px;
+    font-weight: 600;
+    width: 180px;
+    margin: 0;
+}
+
+/* TEXT OUR EQUILIBRIUM */
+.our-equilibrium {
+    /* border: 1px solid black; */
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    width: 280px;
+    margin: 0;
+}
+
+/* NUMBERS */
+.numbers {
+    /* border: 1px solid red; */
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    /* BLOC NUMBER 01 */
+    .bloc-number01 {
+        /* border: 1px solid black; */
+        display: flex;
+        margin: 0;
+    }
+    /* ICON ETHEREUM */
+    .icon-ethereum{
+        /* border: 1px solid black; */
+        margin: 0;
+        margin-right: 5px;
+    }
+    /* NUMBER1 */
+    .number1 {
+        /* border: 1px solid black;   */
+        color: hsl(178, 100%, 50%);
+        font-size: 16px;
+        font-weight: 400;
+        width: 75px;
+        margin: 0;
+    }
+
+    /* BLOC NUMBER 02 */
+    .bloc-number02 {
+        /* border: 1px solid black; */
+        display: flex;
+        margin: 0;
+    }
+    /* ICON CLOCK */
+    .icon-clock {
+        /* border: 1px solid black; */
+        margin: 0;
+        margin-right: 5px;
+    } 
+    /* NUMBER2 */
+    .number2{
+        /* border: 1px solid black;     */
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0;
+        width: 75px;
+    }
+    
+    /* LINE */
+        hr {
+            border: 0.5px solid #2F415B;    
+            margin: 0;
+        }
+        
+        
+        /* CREATOR */
+        .creator {
+            /* border: 1px solid black; */
+            width: 227px;
+            display: flex; 
+            align-items: center;
+            margin: 0;
+        }
+
+            /* BLOC IMAGE AVATAR */
+            #bloc-avatar {
+                /* border: 1px solid red;   */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                margin-right: 10px;
+            }
+                /* CERCLE */
+                #cercle {
+                    /* border: 1px solid green;   */
+                    width: 36px;
+                    height: 36px;
+                    border-radius: 100%;
+                    background-color: yellow;
+                    margin: 0;
+                }
+                /* IMAGE AVATAR */
+                #image-avatar {
+                    /* border: 1px solid black;   */
+                    width: 34px;
+                    height: 34px;
+                    margin: 0;
+                    position: absolute;
+                }
+
+            /* CREATION */
+            .creation {
+                /* border: 1px solid black;    */
+                font-size: 16px;
+                font-weight: 400;
+                margin: 0;
+                margin-right: 5px;
+            }
+            /* JULES */
+            .jules {
+                /* border: 1px solid black; */
+                margin: 0;
+                font-size: 16px;
+                font-weight: 400;
+            }
+            
